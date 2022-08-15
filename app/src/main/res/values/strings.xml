@@ -1,1 +1,16 @@
+<resources>
     <string name="app_name">Weather App</string>
+    <string name="lock_screen">Lock screen</string>
+    <string name="home">Home</string>
+    <string name="location"> Manage location</string>
+    <string name="notification">Notification</string>
+    <string name="setting">Setting</string>
+    <string name="status_bar">Status bar</string>
+    <string name="hide_background_image">Hide background Image</string>
+    <string name="temperature">Temperature</string>
+    <string name="weather_radar">Weather radar</string>
+    <string name="weather_widget">Weather widget</string>
+    <string name="feedback_suggestion">Feedback and Suggestion</string>
+    <string name="report_problem">Report problem</string>
+    <string name="share">Share</string>
+</resources>

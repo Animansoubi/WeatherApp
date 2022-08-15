@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/home"
+        android:actionLayout="@layout/action_layout"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/location"
+        android:actionLayout="@layout/action_layout"
+        android:icon="@drawable/ic_location"
+        android:title="@string/location" />
+    <item
+        android:id="@+id/Temperature"
+        android:actionLayout="@layout/action_layout"
+        android:icon="@drawable/ic_temp"
+        android:title="@string/temperature" />
+    <item
+        android:id="@+id/lock_screen"
+        android:actionLayout="@layout/action_layout"
+        android:icon="@drawable/ic_lock"
+        android:title="@string/lock_screen"
+        app:actionViewClass="android.widget.Switch" />
+    <item
+        android:id="@+id/notification"
+        android:actionLayout="@layout/action_layout"
+        android:icon="@drawable/ic_notification"
+        android:title="@string/notification"
+        app:actionViewClass="android.widget.Switch" />
+    <item
+        android:id="@+id/status_bar"
+        android:actionLayout="@layout/action_layout"
+        android:icon="@drawable/ic_status"
+        android:title="@string/status_bar"
+        app:actionViewClass="android.widget.Switch" />
+    <item
+        android:id="@+id/hide_back_image"
+        android:actionLayout="@layout/action_layout"
+        android:icon="@drawable/ic_hide_image"
+        android:title="@string/hide_background_image"
+        app:actionViewClass="android.widget.Switch" />
+    <item
+        android:id="@+id/weather_radar"
+        android:actionLayout="@layout/action_layout"
+        android:icon="@drawable/ic_radar"
+        android:title="@string/weather_radar" />
+    <item
+        android:id="@+id/weather_widgets"
+        android:actionLayout="@layout/action_layout"
+        android:icon="@drawable/ic_widgets"
+        android:title="@string/weather_widget" />
+
+    <item
+        android:id="@+id/setting"
+        android:actionLayout="@layout/action_layout"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/setting" />
+    <item
+        android:id="@+id/feed_back"
+        android:actionLayout="@layout/action_layout"
+        android:icon="@drawable/ic_message"
+        android:title="@string/feedback_suggestion" />
+    <item
+        android:id="@+id/report_problem"
+        android:actionLayout="@layout/action_layout"
+        android:icon="@drawable/ic_message"
+        android:title="@string/report_problem" />
+    <item
+        android:id="@+id/share"
+        android:actionLayout="@layout/action_layout"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share" />
+</menu>
