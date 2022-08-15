@@ -8,4 +8,29 @@
     tools:openDrawer="start"
     android:id="@+id/drawer_layout">
 
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/menu_header"
+        app:menu="@menu/drawer_menu"
+        android:background="@color/mid_blue"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_blue"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_menu"
+            android:layout_margin="10dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
 </androidx.drawerlayout.widget.DrawerLayout>
