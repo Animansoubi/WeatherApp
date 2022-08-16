@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_settings_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@color/light_blue"
+        android:padding="16dp"
+        android:text="@string/setting"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ico_home"
+            style="@style/menuItemsImage"
+            android:src="@drawable/ic_home" />
+
+        <TextView
+            android:id="@+id/tv_home"
+            style="@style/menuItemsText"
+            android:layout_toEndOf="@+id/ico_home"
+            android:text="@string/home" />
+
+        <View style="@style/Divider" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ico_location"
+            style="@style/menuItemsImage"
+            android:src="@drawable/ic_location" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/ico_location"
+            android:padding="14dp"
+            android:text="@string/location" />
+
+        <View style="@style/Divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ico_temperature"
+            style="@style/menuItemsImage"
+            android:src="@drawable/ic_temp" />
+
+        <TextView
+            android:id="@+id/tv_temperature"
+            style="@style/menuItemsText"
+            android:layout_toEndOf="@+id/ico_temperature"
+            android:text="@string/temperature" />
+
+        <View style="@style/Divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ico_lock_screen"
+            style="@style/menuItemsImage"
+            android:src="@drawable/ic_lock" />
+
+        <TextView
+            android:id="@+id/tv_lock_screen"
+            style="@style/menuItemsText"
+            android:layout_toEndOf="@+id/ico_lock_screen"
+            android:text="@string/lock_screen" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/sw_lock_screen"
+            style="@style/menuItemsSwitch"
+            android:layout_toEndOf="@+id/tv_lock_screen" />
+
+        <View style="@style/Divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ico_notification"
+            style="@style/menuItemsImage"
+            android:src="@drawable/ic_notification" />
+
+        <TextView
+            android:id="@+id/tv_notification"
+            style="@style/menuItemsText"
+            android:layout_toEndOf="@+id/ico_notification"
+            android:text="@string/notification" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/sw_notification"
+            style="@style/menuItemsSwitch"
+            android:layout_toEndOf="@+id/tv_notification" />
+
+        <View style="@style/Divider" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ico_status_bar"
+            style="@style/menuItemsImage"
+            android:src="@drawable/ic_status" />
+
+        <TextView
+            android:id="@+id/tv_status_bar"
+            style="@style/menuItemsText"
+            android:layout_toEndOf="@+id/ico_status_bar"
+            android:text="@string/status_bar" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/sw_status_bar"
+            style="@style/menuItemsSwitch"
+            android:layout_toEndOf="@+id/tv_status_bar" />
+
+        <View style="@style/Divider" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ico_hide_back_image"
+            style="@style/menuItemsImage"
+            android:src="@drawable/ic_hide_image" />
+
+        <TextView
+            android:id="@+id/tv_hide_back_image"
+            style="@style/menuItemsText"
+            android:layout_toEndOf="@+id/ico_hide_back_image"
+            android:text="@string/hide_background_image" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/sw_hide_back_image"
+            style="@style/menuItemsSwitch"
+            android:layout_toEndOf="@+id/tv_hide_back_image" />
+
+        <View style="@style/Divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ico_weather_radar"
+            style="@style/menuItemsImage"
+            android:src="@drawable/ic_radar" />
+
+        <TextView
+            android:id="@+id/tv_weather_radar"
+            style="@style/menuItemsText"
+            android:layout_toEndOf="@+id/ico_weather_radar"
+            android:text="@string/weather_radar" />
+
+        <View style="@style/Divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ico_weather_widgets"
+            style="@style/menuItemsImage"
+            android:src="@drawable/ic_widgets" />
+
+        <TextView
+            android:id="@+id/tv_weather_widgets"
+            style="@style/menuItemsText"
+            android:layout_toEndOf="@+id/ico_weather_widgets"
+            android:text="@string/weather_widget" />
+
+        <View style="@style/Divider" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ico_setting"
+            style="@style/menuItemsImage"
+            android:src="@drawable/ic_settings" />
+
+        <TextView
+            android:id="@+id/tv_setting"
+            style="@style/menuItemsText"
+            android:layout_toEndOf="@+id/ico_setting"
+            android:text="@string/setting" />
+
+        <View style="@style/Divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ico_feed_back"
+            style="@style/menuItemsImage"
+            android:src="@drawable/ic_message" />
+
+        <TextView
+            android:id="@+id/tv_feed_back"
+            style="@style/menuItemsText"
+            android:layout_toEndOf="@+id/ico_feed_back"
+            android:text="@string/feedback_suggestion" />
+
+        <View style="@style/Divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ico_report_problem"
+            style="@style/menuItemsImage"
+            android:src="@drawable/ic_message" />
+
+        <TextView
+            android:id="@+id/tv_report_problem"
+            style="@style/menuItemsText"
+            android:layout_toEndOf="@+id/ico_report_problem"
+            android:text="@string/report_problem" />
+
+        <View style="@style/Divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ico_share"
+            style="@style/menuItemsImage"
+            android:src="@drawable/ic_share" />
+
+        <TextView
+            android:id="@+id/tv_share"
+            style="@style/menuItemsText"
+            android:layout_toEndOf="@+id/ico_share"
+            android:text="@string/share" />
+    </RelativeLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
