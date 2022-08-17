@@ -13,4 +13,5 @@
     <string name="feedback_suggestion">Feedback and Suggestion</string>
     <string name="report_problem">Report problem</string>
     <string name="share">Share</string>
+    <string name="default_item_widget">Default Item widget</string>
 </resources>

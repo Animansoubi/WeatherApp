@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_item_menu_widget"
+        style="@style/menuItemsImage" />
+
+    <TextView
+        android:id="@+id/tv_item_menu_widget"
+        style="@style/menuItemsText"
+        android:layout_toEndOf="@+id/img_item_menu_widget"
+        android:text="@string/default_item_widget" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/sw_tem_menu_widget"
+        style="@style/menuItemsSwitch"
+        android:layout_toEndOf="@+id/tv_item_menu_widget"/>
+
+    <View style="@style/Divider"/>
+
+</RelativeLayout>
