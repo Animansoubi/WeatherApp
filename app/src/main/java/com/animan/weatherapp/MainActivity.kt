@@ -2,9 +2,8 @@ package com.animan.weatherapp
 
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.MenuCompat
 import com.animan.weatherapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -22,8 +21,10 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        menuInflater.inflate(R.menu.drawer_menu, menu)
-        return true
+    override fun onContextItemSelected(item: MenuItem): Boolean {
+        when(item.itemId) {
+
+        }
+        return super.onContextItemSelected(item)
     }
 }
